@@ -7,6 +7,9 @@
 header {
   padding: 154px 0 100px;
 }
+#header {
+	background-image: url(../img/rubber_duck_crop.gif);
+}
 
 @media (min-width: 992px) {
   header {
