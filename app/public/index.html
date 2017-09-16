@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>RDPDuck</title>
+    <title>RDPDuck</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 
-</head>
+  </head>
 
-<body id="page-top">
+  <body id="page-top">
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-  <div class="container" id="mainNavColor">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">RDPDuck</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger navybox" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger navybox" href="#services">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger navybox" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" id="orangebox" href="signup.html">Sign Up</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<header class="bg-primary text-white">
-  <div class="container text-center">
-    <h1>Welcome to RDPDuck</h1>
-    <p class="lead">A web app that brings Remote Desktop Connection/RDP to the browser</p>
-  </div>
-</header>
-
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2>Duck, duck, RDP</h2>
-        <p class="lead">RDP Duck brings RDP to the browser for a whole, new Remote Desktop Connection experience. Some features include:</p>
-        <ul>
-          <li>Fast and easy way to create connections between your web broswer and your remote desktop</li>
-          <li>Instructions on how to turn any desktop into a remote desktop</li>
-          <li>Tools to grab needed info to setup your remote desktop</li>
-          <li>Chat portal</li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container" id="mainNavColor">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">RDPDuck</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger navybox" href="#about">Zero Ducks Given</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger navybox" href="#services">Ducks Given</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger navybox" href="#contact">Many Ducks Given</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" id="orangebox" href="signup.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </nav>
 
-<section id="services" class="bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2>Services we offer</h2>
-        <p class="lead">We have two basic offerings: Personal and Enterprise.</p>
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to RDPDuck</h1>
+        <p class="lead">A web app that brings Remote Desktop Connection/RDP to the browser</p>
       </div>
-    </div>
-  </div>
-</section>
+    </header>
 
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <h2>Contact us</h2>
-        <p class="lead">For more information, send an email to info@rdpduck.com.</p>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Zero Ducks Given (Not Secure)</h2>
+            <p class="lead">First, you’ll need to know the IP address of the PC running Remote Desktop that you want to connect to. The easiest way to do this is to fire up the Command Prompt and use the ipconfig command. In the results, look for the section detailing the network adapter connecting you to the Internet (in our example, it’s “Ethernet Adapter”). In that section, look for the IPv4 address. <br> <br>
+
+            Next, you’ll log into your router and locate the Port Forwarding section. Exactly where that is will depend on what router you’re using. In that section, forward TCP port 3389 to the IPv4 address you located previously. <br><br>
+
+            You now should be able to log into Remote Desktop over the internet by connecting to the public IP address your router exposes for your local network. <br> <br>
+
+            Remembering that IP address can be tough (especially if it changes), so you also may want to set up a dynamic DNS service so you can always connect with an easy-to-remember domain name. You may also want to set up a static IP address on the computer running the Remote Desktop server. This will ensure that the computer’s internal IP address won’t change—if it does, you’ll have to change your port forwarding configuration.</p>
+            
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="py-5 bg-dark">
-  <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; RDPDuck 2017</p>
-  </div>
-  <!-- /.container -->
-</footer>
+    <section id="services" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Ducks Given (Secure)</h2>
+            <p class="lead">If you create a virtual private network (VPN), you won’t have to expose the Remote Desktop server directly to the Internet. Instead, when you’re away from home, you can connect to the VPN, and your computer will act like it’s part of the same local network as the computer at home, running the Remote Desktop server. This will allow you to access Remote Desktop and other services normally only exposed on your local network. <br> <br>
+ 
+            If you pay for the full version, we will cover a number of ways to set up your own home VPN server, including a way to create a VPN server in Windows without any extra software or services. <br> <br>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/popper/popper.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            Setting up a VPN is by far the more secure option when it comes to making Remote Desktop accessible over the internet, and with the right tools, it’s pretty simple to achieve. It is not your only option, though.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Many Ducks Given (Most Secure)</h2>
+            <p class="lead">If you pay for the full version, and you go with this option, we will tell you which hardware we recommend and help you configure it so you can setup your own home lab. <br> <br> <br>
+            For more information, send an email to info@rdpduck.com.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- Custom JavaScript for this theme -->
-<script src="js/scrolling-nav.js"></script>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; RDPDuck 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
-</body>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
 
 </html>
