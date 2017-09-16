@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log in</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+
+
+<body>
+
+
+<div class="login-wrap">
+    <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+        <div class="login-form">
+            <div class="sign-in-htm">
+                <form id="signin" name="signin" method="post" action="signin">
+
+                </form>
+                <div class="group">
+                    <label for="user" class="label">Email Address</label>
+                    <input id="user" type="text" class="input">
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" type="password" class="input" data-type="password">
+                </div>
+                <div class="group">
+                    <input id="check" type="checkbox" class="check" checked>
+                    <label for="check"><span class="icon"></span> Keep Me Signed In</label>
+                </div>
+                <div class="group">
+                    <input type="submit" class="btn" value="Sign In">
+                </div>
+
+<a href="index.html"><button  type="button" class="btn btn-default"><span class="glyphicon glyphicon-home"> </span></button></a>
+
+
+                <div class="hr"></div>
+
+            </div>
+            <div class="sign-up-htm">
+                <form id="signup" name="signup" method="post" action="/signup">
+                    <div class="group">
+                        <label for="email" class="label">Email Address</label>
+                        <input id="text"  name="email" type="email" class="input text">
+                    </div>
+                    <div class="group">
+                        <label for="firstname" class="label">First name</label>
+                        <input id="firstname" name="firstname" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="lastname" class="label">Last Name</label>
+                        <input id="lastname" name="lastname" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <label for="password" class="label">Password</label>
+                        <input id="password" name="password" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input type="submit" class="btn" value="Sign Up">
+                    </div>
+
+
+<a href="index.html"><button  type="button" class="btn btn-default"><span class="glyphicon glyphicon-home"> </span></button></a>
+
+  
+
+                    <div class="hr"></div>
+                    <div class="foot-lnk">
+                        <label for="tab-1">Already a Member?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
